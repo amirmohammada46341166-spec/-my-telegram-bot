@@ -3,9 +3,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
 TOKEN = "8965190209:AAEI62bucEHeQwAu2WS-cB0mKHV3hZS08y4"
-ADMIN_ID = 123456789
-CARD_NUMBER = "1234-5678-9012-3456"
-CARD_NAME = "علی رضایی"
+ADMIN_ID = 7049905125
+CARD_NUMBER = "5892-1012-5656-8888"
+CARD_NAME = "رامین زارع"
 
 def init_db():
     conn = sqlite3.connect('shop.db')
